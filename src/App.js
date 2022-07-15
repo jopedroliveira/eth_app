@@ -40,13 +40,13 @@ function App() {
           {address}
         </Card.Header>
         <Card.Body>
-        <Card.Text>
-          <strong>Balance: </strong>
-          {balance}
-        </Card.Text>
-        <Button onClick={btnhandler} variant="primary">
-          Connect to wallet
-        </Button>
+          <Card.Text>
+            <strong>Balance: </strong>
+            {balance}
+          </Card.Text>
+          <Button onClick={btnhandler} variant="primary">
+            Connect to wallet
+          </Button>
         </Card.Body>
       </Card>
     </div>
